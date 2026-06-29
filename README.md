@@ -32,7 +32,7 @@ React Jobs is a modern job portal application built using React and Vite. This p
 Clone the repository:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/react-jobs-ui-revamp.git
+git clone https://github.com/MadineniChetanSivaram/React-Jobs-App.git
 ```
 
 Move into the project:
