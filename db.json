@@ -1,0 +1,47 @@
+{
+  "jobs": [
+    {
+      "title": "dfg",
+      "type": "Full-Time",
+      "location": "dmd",
+      "description": "dkvmkls",
+      "salary": "Under $50K",
+      "company": {
+        "name": "fgmmg",
+        "description": ";lgmdg",
+        "contactEmail": "test@test.com",
+        "contactPhone": "6235188346"
+      },
+      "id": "2oGCf2gcTc0"
+    },
+    {
+      "id": "dhHTENli7XY",
+      "title": "dnff",
+      "type": "Full-Time",
+      "location": "mnfkl",
+      "description": "sndfk",
+      "salary": "Under $50K",
+      "company": {
+        "name": ",msndfl",
+        "description": "sddf   hhjj",
+        "contactEmail": "nfg@test.com",
+        "contactPhone": "4836775774"
+      }
+    },
+    {
+      "id": "RD5CRw5mX60",
+      "title": "senior developer",
+      "type": "Full-Time",
+      "location": "Bengaluru",
+      "description": "react",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Reacttech123",
+        "description": "ef",
+        "contactEmail": "hr@reactttech.com",
+        "contactPhone": "9007899990"
+      }
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
