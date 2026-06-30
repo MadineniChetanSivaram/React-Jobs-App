@@ -8,7 +8,9 @@ const JobListings = ({ isHome = false }) => {
 
   useEffect(() => {
     const fetchJobs = async () => {
-      const apiUrl = '/api/jobs';
+      const apiUrl = isHome
+             ? 'https://6a43c9af6dba791499ab6549.mockapi.io/jobs?page=1&limit=3'
+             : 'https://6a43c9af6dba791499ab6549.mockapi.io/jobs';
       try {
         const res = await fetch(apiUrl);
         const data = await res.json();
