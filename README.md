@@ -1,16 +1,75 @@
-# React + Vite
+# React Jobs - UI Revamp
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+React Jobs is a modern job portal application built using React and Vite. This project is a complete UI redesign of the original React Jobs application while preserving all of its core functionality.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+* Modern responsive user interface
+* Browse available jobs
+* View detailed job information
+* Add new jobs
+* Edit existing jobs
+* Delete jobs with confirmation dialog
+* Company information section
+* Toast notifications
+* Responsive design for desktop and mobile
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies Used
 
-## Expanding the Oxlint configuration
+* React
+* Vite
+* React Router DOM
+* Tailwind CSS
+* React Icons
+* React Toastify
+* SweetAlert2
+* JSON Server
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/MadineniChetanSivaram/React-Jobs-App.git
+```
+
+Move into the project:
+
+```bash
+cd react-jobs-ui-revamp
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the JSON Server:
+
+```bash
+npm run server
+```
+
+In another terminal, start the React application:
+
+```bash
+npm run dev
+```
+
+## Project Structure
+
+```
+src/
+ ├── components/
+ ├── layouts/
+ ├── pages/
+ ├── assets/
+ └── App.jsx
+```
+
+## Author
+
+**Madineni Chetan Siva Ram**
